@@ -1,0 +1,19 @@
+{
+  "name": "full-stack-service-networking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wormwlrm/full-stack-service-networking.git",
+  "author": "Jongyoon Jeong <wormwlrm@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "nodemon": "^2.0.15",
+    "qs": "^6.10.1"
+  },
+  "scripts": {
+    "run:http": "nodemon --watch HTTP_1.1/ HTTP_1.1/lec-06-prg-01-http-web-server.js"
+  }
+}

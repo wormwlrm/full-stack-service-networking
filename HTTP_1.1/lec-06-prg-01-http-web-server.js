@@ -12,6 +12,9 @@ app.use(koaBody());
 router.get("/(.*)", (ctx) => {
   console.log("## do_GET() activated.");
 
+  printHttpRequestDetail(ctx);
+  sendHttpResponseHeader(ctx);
+
   if (ctx.url.includes("?")) {
     const routine = ctx.url.split("?")[1];
     const params = parameterRetrieval(routine);
@@ -39,6 +42,9 @@ router.get("/(.*)", (ctx) => {
 router.post("/(.*)", (ctx) => {
   console.log("## do_POST() activated.");
 
+  printHttpRequestDetail(ctx);
+  sendHttpResponseHeader(ctx);
+
   const post_data = qs.stringify(ctx.request.body.data);
   const params = parameterRetrieval(post_data);
   const result = simpleCalc(Number(params[0]), Number(params[1]));
@@ -52,8 +58,7 @@ router.post("/(.*)", (ctx) => {
   );
 });
 
-// print_http_request_detail
-app.use(async (ctx, next) => {
+const printHttpRequestDetail = async (ctx, next) => {
   console.log(`::Client address  : ${ctx.request.socket.remoteAddress}`);
   console.log(`::Client port     : ${ctx.request.socket.remotePort}`);
   console.log(`::Request Command : ${ctx.request.method}`);
@@ -62,17 +67,12 @@ app.use(async (ctx, next) => {
   );
   console.log(`::Request path    : ${ctx.request.originalUrl}`);
   console.log(`::Request version : HTTP/${ctx.request.req.httpVersion}`);
+};
 
-  next();
-});
-
-// send_http_response_header
-app.use(async (ctx, next) => {
+const sendHttpResponseHeader = async (ctx, next) => {
   ctx.status = 200;
   ctx.header["content-type"] = "text/html";
-
-  next();
-});
+};
 
 app.use(router.routes()).use(router.allowedMethods());
 

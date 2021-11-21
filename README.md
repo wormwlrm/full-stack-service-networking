@@ -1,6 +1,6 @@
 # full-stack-service-networking
 
-풀스택 서비스 네트워킹 프로젝트입니다.
+풀스택 서비스 네트워킹의 프로젝트 리포지터리입니다.
 
 ## HTTP/1.1
 

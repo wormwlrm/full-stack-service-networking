@@ -8,7 +8,12 @@ HTTP/1.1 코드 전체는 [링크](/HTTP_1.1)에서 확인할 수 있습니다.
 
 ### 프로그램 1 실행 화면
 
+<summary>
+영상 보기
+<detail>
 <video src="./videos/Program1.mov" width="600px">
+</detail>
+</summary>
 
 #### 서버
 

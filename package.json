@@ -15,6 +15,12 @@
   },
   "scripts": {
     "http-1": "nodemon --watch HTTP_1.1/ HTTP_1.1/lec-06-prg-01-http-web-server.js",
-    "http-2": "node HTTP_1.1/lec-06-prg-02-http-web-client.js"
+    "http-2": "node HTTP_1.1/lec-06-prg-02-http-web-client.js",
+    "http-3": "node HTTP_1.1/lec-06-prg-03-json-example.js",
+    "http-4": "node HTTP_1.1/lec-06-prg-04-json-example.js",
+    "http-5": "node HTTP_1.1/lec-06-prg-05-json-example.js",
+    "http-6": "node HTTP_1.1/lec-06-prg-06-json-example.js",
+    "http-7": "nodemon --watch HTTP_1.1/ HTTP_1.1/lec-06-prg-07-rest-server.js",
+    "http-8": "node HTTP_1.1/lec-06-prg-08-rest-client.js"
   }
 }

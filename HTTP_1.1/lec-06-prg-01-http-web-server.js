@@ -45,7 +45,7 @@ router.post("/(.*)", (ctx) => {
   printHttpRequestDetail(ctx);
   sendHttpResponseHeader(ctx);
 
-  const post_data = qs.stringify(ctx.request.body.data);
+  const post_data = qs.stringify(ctx.request.body);
   const params = parameterRetrieval(post_data);
   const result = simpleCalc(Number(params[0]), Number(params[1]));
 

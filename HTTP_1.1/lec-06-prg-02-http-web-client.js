@@ -19,7 +19,8 @@ const axios = require("axios");
     "## POST request for http://localhost:8080/ with var1 is 9 and var2 is 9"
   );
   http_request = await axios.post("http://localhost:8080", {
-    data: { var1: "9", var2: "9" },
+    var1: "9",
+    var2: "9",
   });
   console.log("## POST response [start]");
   console.log(http_request.data);

@@ -32,6 +32,7 @@
     "zmq-7": "node ZMQ/lec-05-prg-07-pub-sub-and-pull-push-server-v2.js",
     "zmq-8": "node ZMQ/lec-05-prg-08-pub-sub-and-pull-push-client-v2.js",
     "zmq-9": "node ZMQ/lec-05-prg-09-dealer-router-async-server.js",
-    "zmq-10": "node ZMQ/lec-05-prg-10-dealer-router-async-client.js"
+    "zmq-10": "node ZMQ/lec-05-prg-10-dealer-router-async-client.js",
+    "zmq-11": "node ZMQ/lec-05-prg-11-dealer-router-async-client-thread.js"
   }
 }

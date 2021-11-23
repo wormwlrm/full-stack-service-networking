@@ -26,6 +26,8 @@
     "zmq-1": "node ZMQ/lec-05-prg-01-req-rep-basic-server.js",
     "zmq-2": "node ZMQ/lec-05-prg-02-req-rep-basic-client.js",
     "zmq-3": "node ZMQ/lec-05-prg-03-pub-sub-basic-server.js",
-    "zmq-4": "node ZMQ/lec-05-prg-04-pub-sub-basic-client.js"
+    "zmq-4": "node ZMQ/lec-05-prg-04-pub-sub-basic-client.js",
+    "zmq-5": "node ZMQ/lec-05-prg-05-pub-sub-and-pull-push-server.js",
+    "zmq-6": "node ZMQ/lec-05-prg-06-pub-sub-and-pull-push-client.js"
   }
 }

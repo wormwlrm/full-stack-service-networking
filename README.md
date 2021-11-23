@@ -88,6 +88,16 @@ npm run zmq-4
 
 ### Publish-Subscribe with Pipeline Pattern
 
+<!-- Program 9 -->
+
+```bash
+# 서버
+npm run zmq-5
+
+# 클라이언트
+npm run zmq-6
+```
+
 ### Dealer-Router Pattern
 
 ### Dealer-Router Pattern with Multi-thread Client

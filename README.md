@@ -92,14 +92,22 @@ npm run zmq-4
 
 <!-- Program 9 -->
 
-### v2
-
 ```bash
 # 서버
 npm run zmq-5
 
 # 클라이언트
-npm run zmq-6 [클라이언트 이름]
+npm run zmq-6
+```
+
+### v2
+
+```bash
+# 서버
+npm run zmq-7
+
+# 클라이언트
+npm run zmq-8 [클라이언트 이름]
 ```
 
 ### Dealer-Router Pattern

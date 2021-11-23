@@ -8,17 +8,25 @@ async function run() {
   const publisher = new zmq.Push();
   publisher.connect("tcp://localhost:5558");
 
+  const clientID = process.argv[2];
+
   setInterval(() => {
     const rand = Math.floor(Math.random() * 100);
+
     if (rand < 10) {
-      publisher.send(rand);
-      console.log("I: sending message ", rand);
+      const msg = `(${clientID}:ON)`;
+      publisher.send(msg);
+      console.log(`${clientID}: send status - activated`);
+    } else if (rand > 90) {
+      const msg = `(${clientID}:OFF)`;
+      publisher.send(msg);
+      console.log(`${clientID}: send status - deactivated`);
     }
   }, 250);
 
   while (true) {
     const message = await subscriber.receive();
-    console.log("I: received message ", message.toString());
+    console.log(`${clientID}: receive status => ${message.toString()}`);
   }
 }
 

@@ -28,6 +28,8 @@
     "zmq-3": "node ZMQ/lec-05-prg-03-pub-sub-basic-server.js",
     "zmq-4": "node ZMQ/lec-05-prg-04-pub-sub-basic-client.js",
     "zmq-5": "node ZMQ/lec-05-prg-05-pub-sub-and-pull-push-server.js",
-    "zmq-6": "node ZMQ/lec-05-prg-06-pub-sub-and-pull-push-client.js"
+    "zmq-6": "node ZMQ/lec-05-prg-06-pub-sub-and-pull-push-client.js",
+    "zmq-7": "node ZMQ/lec-05-prg-07-pub-sub-and-pull-push-server-v2.js",
+    "zmq-8": "node ZMQ/lec-05-prg-08-pub-sub-and-pull-push-client-v2.js"
   }
 }

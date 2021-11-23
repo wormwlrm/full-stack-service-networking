@@ -9,7 +9,7 @@ async function run() {
 
   while (true) {
     const message = await collector.receive();
-    console.log("I: publishing update ", message.toString());
+    console.log("server: publishing update => ", message.toString());
     publisher.send(message.toString());
   }
 }

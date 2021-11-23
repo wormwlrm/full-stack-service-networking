@@ -4,8 +4,6 @@
 
 ## HTTP/1.1
 
-HTTP/1.1 코드 전체는 [링크](/HTTP_1.1)에서 확인할 수 있습니다.
-
 ### HTTP GET & POST server example
 
 <https://user-images.githubusercontent.com/26682772/142756683-52000dd2-48ab-4b59-ac60-5de684577293.mov>
@@ -57,3 +55,29 @@ npm run http-8
 ```
 
 ## ZMQ
+
+### Request-Reply Pattern
+
+<!-- Program 7 -->
+
+```bash
+npm run zmq-1
+npm run zmq-2
+```
+
+### Publish-Subscribe Pattern
+
+<!-- Program 8 -->
+
+```bash
+npm run zmq-3
+npm run zmq-4
+```
+
+### Publish-Subscribe with Pipeline Pattern
+
+### Dealer-Router Pattern
+
+### Dealer-Router Pattern with Multi-thread Client
+
+### Dirty P2P Example

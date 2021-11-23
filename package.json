@@ -24,6 +24,8 @@
     "http-7": "nodemon --watch HTTP_1.1/ HTTP_1.1/lec-06-prg-07-rest-server.js",
     "http-8": "node HTTP_1.1/lec-06-prg-08-rest-client.js",
     "zmq-1": "node ZMQ/lec-05-prg-01-req-rep-basic-server.js",
-    "zmq-2": "node ZMQ/lec-05-prg-02-req-rep-basic-client.js"
+    "zmq-2": "node ZMQ/lec-05-prg-02-req-rep-basic-client.js",
+    "zmq-3": "node ZMQ/lec-05-prg-03-pub-sub-basic-server.js",
+    "zmq-4": "node ZMQ/lec-05-prg-04-pub-sub-basic-client.js"
   }
 }

@@ -1,6 +1,6 @@
 # full-stack-service-networking
 
-풀스택 서비스 네트워킹의 프로젝트 리포지터리입니다.
+2021-2 풀스택서비스네트워킹 과제 리포지터리입니다.
 
 ## HTTP/1.1
 
@@ -9,7 +9,10 @@
 <https://user-images.githubusercontent.com/26682772/142756683-52000dd2-48ab-4b59-ac60-5de684577293.mov>
 
 ```bash
+# 서버
 npm run http-1
+
+# 클라이언트
 npm run http-2
 ```
 
@@ -50,7 +53,10 @@ npm run http-6
 <https://user-images.githubusercontent.com/26682772/142771466-477aaa89-7fa9-47eb-a62b-2308b841d548.mov>
 
 ```bash
+# 서버
 npm run http-7
+
+# 클라이언트
 npm run http-8
 ```
 
@@ -61,7 +67,10 @@ npm run http-8
 <!-- Program 7 -->
 
 ```bash
+# 서버
 npm run zmq-1
+
+# 클라이언트
 npm run zmq-2
 ```
 
@@ -70,7 +79,10 @@ npm run zmq-2
 <!-- Program 8 -->
 
 ```bash
+# 서버
 npm run zmq-3
+
+# 클라이언트
 npm run zmq-4
 ```
 

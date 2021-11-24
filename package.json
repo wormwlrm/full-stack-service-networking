@@ -7,6 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.24.0",
+    "ip": "^1.1.5",
     "koa": "^2.13.4",
     "koa-body": "^4.2.0",
     "koa-router": "^10.1.1",
@@ -33,6 +34,7 @@
     "zmq-8": "node ZMQ/lec-05-prg-08-pub-sub-and-pull-push-client-v2.js",
     "zmq-9": "node ZMQ/lec-05-prg-09-dealer-router-async-server.js",
     "zmq-10": "node ZMQ/lec-05-prg-10-dealer-router-async-client.js",
-    "zmq-11": "node ZMQ/lec-05-prg-11-dealer-router-async-client-thread.js"
+    "zmq-11": "node ZMQ/lec-05-prg-11-dealer-router-async-client-thread.js",
+    "zmq-12": "node ZMQ/lec-05-prg-12-p2p-dechat.js"
   }
 }

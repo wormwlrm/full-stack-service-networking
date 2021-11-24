@@ -64,6 +64,8 @@ npm run http-8
 
 ### Request-Reply Pattern
 
+https://user-images.githubusercontent.com/26682772/143219295-51511ebe-b594-4e31-a7f5-b85ef4d854f9.mov
+
 <!-- Program 7 -->
 
 ```bash
@@ -75,6 +77,8 @@ npm run zmq-2
 ```
 
 ### Publish-Subscribe Pattern
+
+https://user-images.githubusercontent.com/26682772/143219370-28213242-0c3c-47ed-9520-08ab82cc91a0.mov
 
 <!-- Program 8 -->
 
@@ -90,7 +94,10 @@ npm run zmq-4
 
 ### v1
 
+https://user-images.githubusercontent.com/26682772/143219426-5eedc705-62f0-4b62-b694-960a57dd085d.mov
+
 <!-- Program 9 -->
+
 
 ```bash
 # 서버
@@ -101,6 +108,8 @@ npm run zmq-6
 ```
 
 ### v2
+
+https://user-images.githubusercontent.com/26682772/143219492-038e8502-911c-4858-b6bb-846935da30bd.mov
 
 <!-- Program 10 -->
 
@@ -116,9 +125,13 @@ npm run zmq-8 [클라이언트 이름]
 
 ### Single Thread
 
+https://user-images.githubusercontent.com/26682772/143219543-f6924102-3249-4579-b8aa-95a0c6138309.mov
+
 <!-- Program 11 -->
 
 ### Four Threads
+
+https://user-images.githubusercontent.com/26682772/143219600-9bc9b56e-578c-4d27-b361-45f99d6917fb.mov
 
 <!-- Program 12 -->
 
@@ -133,6 +146,8 @@ npm run zmq-11 [클라이언트 이름]
 ```
 
 ### Dirty P2P Example
+
+https://user-images.githubusercontent.com/26682772/143219668-129e84d6-8efb-467c-a744-6b77204fae0a.mov
 
 <!-- Program 13 -->
 

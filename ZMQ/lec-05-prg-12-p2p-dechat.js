@@ -167,7 +167,7 @@ async function main() {
 
   for await (const msg of p2p_rx) {
     const [_relay, ...message] = msg.toString().split(":");
-    console.log(`p2p-recv::<==>${message[0]}:${message[1]}`);
+    console.log(`p2p-recv::<<==${message[0]}:${message[1]}`);
   }
 }
 

@@ -17,8 +17,8 @@ router.get("/(.*)", (ctx) => {
 
   if (ctx.url.includes("?")) {
     const routine = ctx.url.split("?")[1];
-    const params = parameterRetrieval(routine);
-    const result = simpleCalc(Number(params[0]), Number(params[1]));
+    const params = parameter_retrieval(routine);
+    const result = simple_calc(Number(params[0]), Number(params[1]));
 
     ctx.body = `
       <html>
@@ -47,7 +47,7 @@ router.post("/(.*)", (ctx) => {
 
   const post_data = qs.stringify(ctx.request.body);
   const params = parameterRetrieval(post_data);
-  const result = simpleCalc(Number(params[0]), Number(params[1]));
+  const result = simple_calc(Number(params[0]), Number(params[1]));
 
   const postResponse = `POST request for calculation => ${params[0]} x ${params[1]} = ${result}`;
   ctx.body = postResponse;
@@ -76,13 +76,11 @@ const sendHttpResponseHeader = async (ctx, next) => {
 
 app.use(router.routes()).use(router.allowedMethods());
 
-// simple_calc
-const simpleCalc = (param1, param2) => {
+const simple_calc = (param1, param2) => {
   return param1 * param2;
 };
 
-// parameter_retrieval
-const parameterRetrieval = (msg) => {
+const parameter_retrieval = (msg) => {
   const result = [];
 
   const params = msg.split("&");
